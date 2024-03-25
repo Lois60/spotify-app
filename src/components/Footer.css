@@ -1,0 +1,39 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item {
+    text-align: center;
+   line-height: 40px;
+}
+
+.social-icons {
+    color: white;
+    text-decoration: none;
+    
+  
+}
+
+.social-icons a:hover {
+    color: #1d75de;
+}
+li{
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr); 
+      text-align: center;
+    }
+  }

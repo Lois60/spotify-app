@@ -1,0 +1,32 @@
+.hero {
+  background-color: #1d75de;
+  height: 400px;
+  padding-top: 20px;
+
+  text-align: center;
+}
+.hero .hero-items {
+  margin-top: 60px;
+  padding-top: 10px;
+}
+h1,
+p,
+span,
+a,
+button {
+  color: white;
+  
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: auto; 
+    padding-top: 10px; 
+  }
+  
+  .hero .hero-items {
+    margin-top: 30px; 
+  }
+}

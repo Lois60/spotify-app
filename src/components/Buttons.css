@@ -1,0 +1,27 @@
+.button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.bgBlack {
+  background-color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+    
+.bgTrans {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-left: 4px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
